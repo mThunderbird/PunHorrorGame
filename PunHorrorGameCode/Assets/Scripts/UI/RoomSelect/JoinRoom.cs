@@ -6,7 +6,7 @@ using Photon.Pun;
 
 public class JoinRoom : MonoBehaviourPunCallbacks
 {
-    [SerializeField] TMP_Text roomCode;
+    [SerializeField] TMP_InputField roomCode;
     public void OnClick_JoinRoom()
     {
         Debug.Log(roomCode.text);
